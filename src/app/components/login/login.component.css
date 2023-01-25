@@ -1,0 +1,14 @@
+section {
+    border: solid 5px red;
+    height: auto;
+
+}
+
+#left {
+    background-color: blue;
+ 
+ }
+ 
+ #right {
+     background-color: purple;
+ }

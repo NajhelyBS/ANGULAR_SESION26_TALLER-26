@@ -11,7 +11,11 @@ import { DisplayComponent } from './display/display.component';
     DisplayComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+  ],
+  exports: [
+    DisplayComponent,
+    LoginComponent,
   ]
 })
 export class ComponentsModule { }
