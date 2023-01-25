@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg  navbar-light "style="background-color: rgba(122, 122, 133, 0.856); border-bottom: dashed black;">
+    <div class="container-fluid">
+        <a class="navbar-brand">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Mirai_Nikki_logo.png" width="129" height="40" class="d-inline-block align-top" alt="">
+          </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'home'" [routerLinkActiveOptions]="{exact: true}"  routerLinkActive="item" >Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'display'" routerLinkActive="item" >Usuarios</a>
+          </li>
+        
+        </ul>
+
+        <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
+            <li class="nav-item ">
+                <a class="nav-link" [routerLink]="'login'"  routerLinkActive="item" [routerLinkActiveOptions]="{exact: true}">Logout</a>
+              </li> 
+        </ul>
+      
+    
+      </div>
+    </div>
+  </nav>
