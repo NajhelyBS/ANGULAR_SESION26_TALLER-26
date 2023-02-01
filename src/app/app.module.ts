@@ -8,6 +8,7 @@ import { PagesModule } from './pages/pages.module';
 
 
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     PagesModule,
     HttpClientModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
     
   ],
   providers: [],

@@ -1,0 +1,17 @@
+<body class="rounded-5">
+
+<section class="card">
+
+   <div *ngFor="let user of userID" id="profile">
+
+      <div *ngIf="id == user.id">
+         <p>{{user.name}}</p>
+         <p>{{user.username}}</p>
+      </div>
+
+
+   </div>
+
+</section>
+
+</body>

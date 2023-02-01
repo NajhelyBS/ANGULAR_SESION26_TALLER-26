@@ -1,0 +1,24 @@
+#contenedor {
+    background-color: #46AAB9;
+    padding: 2em;
+    box-shadow: 1px 2px 7px 6px #0C59BE;
+}
+
+h1 {
+    font-size: 33px;
+    color: #092e5f;
+    text-shadow: 0px 0px 3px white;
+    font-weight: bolder;
+}
+
+p {
+    font-weight: bold;
+}
+
+#imagen {
+    height: 15em;
+    background-image: url(https://rare-gallery.com/uploads/posts/3603140-nature-lake-landscape-reflection-fog-ultrahd-4k-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}

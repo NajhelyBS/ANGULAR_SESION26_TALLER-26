@@ -21,4 +21,9 @@ export class UserService implements OnInit {
   getData(){
     return this.http.get<any>(this.urlJSON);
   }
-}
+
+  
+
+  
+  }
+

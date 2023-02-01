@@ -1,5 +1,6 @@
-<p>display works!</p>
+<p>Lista de Usuarios </p>
 <div class="container mb-5" >
+    <pagination-controls (pageChange)="page_actual = $event"></pagination-controls>
     <table class="rounded">
       <thead>
           <tr class=" border">
@@ -8,18 +9,21 @@
               <th class="text-center py-3" id="title">Username</th>
               <th class="text-center py-3" id="title">Email</th>
               <th class="text-center py-3" id="title">Phone</th>
-              <th class="text-center py-3" id="title">Website</th>
+              <th class="text-center py-3" id="title">Address</th>
   
           </tr>
       </thead>
       <tbody>
-          <tr *ngFor="let user of users">
+          <tr *ngFor="let user of users | paginate: { itemsPerPage: 5, currentPage:page_actual }">
               <th class="border px-4 py-3" id="sub">{{user.id}}</th>
               <th class="border px-4 py-3" id="sub">{{user.name}}</th>
               <th class="border px-4 py-3" id="sub">{{user.username}}</th>
               <th class="border px-4 py-3" id="sub">{{user.email}}</th>
               <th class="border px-4 py-3" id="sub">{{user.phone}}</th>
-              <th class="border px-4 py-3" id="sub">{{user.website}}</th>
+              <th class="border px-4 py-3" id="sub"><button 
+                class="btn btn-primary"
+                routerLink="/detalle/{{user.id}}"
+                >Ver en el mapa</button></th>
             </tr>
       </tbody>
   </table>

@@ -1,0 +1,26 @@
+body {
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    padding: 2em;
+}
+
+.container {
+    height: 5em;
+    background-color: white;
+}
+
+.card {
+    max-width: 180em;
+    margin: auto;
+    overflow-y: auto;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    transition: 0.3s;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+  }

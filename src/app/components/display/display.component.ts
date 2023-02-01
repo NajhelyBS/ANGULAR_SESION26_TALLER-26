@@ -11,6 +11,8 @@ export class DisplayComponent implements OnInit{
 
 users:any = []; //almacenamiento del api
 
+page_actual = 1;
+
 constructor(private userservice:UserService){}
 
 ngOnInit(): void {
