@@ -4,11 +4,13 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { Router, RouterLink } from '@angular/router';
 import { RouterLinkActive } from '@angular/router';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -18,6 +20,7 @@ import { RouterLinkActive } from '@angular/router';
   exports: [
     HomeComponent,
     HeaderComponent,
+    FooterComponent,
   ]
 })
 export class PagesModule { }

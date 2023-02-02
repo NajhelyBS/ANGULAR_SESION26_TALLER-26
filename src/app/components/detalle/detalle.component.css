@@ -10,6 +10,21 @@ body {
     background-color: white;
 }
 
+#profile {
+padding: 2em;    
+}
+
+#imagen {
+  width: 160px;
+  height: 160px;
+  box-shadow: 0px 0px 8px 3px #0C59BE;  
+}
+
+img {
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+}
 .card {
     max-width: 180em;
     margin: auto;
@@ -23,4 +38,41 @@ body {
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+  }
+
+.left {
+    padding-top: 1em;
+}
+
+.right {
+    padding-top: 1em;
+}
+
+svg {
+  color:#0D4EBC;
+}
+
+span {
+  background-color: #CCEFEF;
+}
+
+.contact-me {
+    border: 0;
+    outline: none;
+    background: linear-gradient(
+      to right,
+      rgba(83, 200, 239, 0.8) 0%,
+      rgba(81, 106, 204, 0.8) 96%
+    );
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    padding: 12px 16px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
   }

@@ -22,3 +22,7 @@ p {
     background-position: center;
     border-radius: 20px;
 }
+
+#imagen:hover {
+    transform: scale(1.02);
+}

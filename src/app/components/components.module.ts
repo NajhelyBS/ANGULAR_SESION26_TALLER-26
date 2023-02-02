@@ -7,6 +7,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { DetalleComponent } from './detalle/detalle.component';
 import { Router, RouterLink } from '@angular/router';
 import { RouterLinkActive } from '@angular/router';
+import { PagesModule } from '../pages/pages.module';
 
 @NgModule({
   declarations: [

@@ -16,13 +16,27 @@ section {
 
  h1 {
     font-weight: 800;
+    font-size: 30px;
  }
 
+ p {
+   color: white;
+   font-weight: 900;
+   text-shadow: 0px 0px 4px black;
+ }
  form {
     width: 25em;
-
  }
 
+ span {
+   background-color: #007DFE;
+   color: white;
+   border: solid #0C59BE;
+ }
+
+ input {
+   border: solid #0C59BE;
+ }
  button {
     background-color: rgba(255, 255, 255, 0.671);
     width: 14em;

@@ -55,7 +55,7 @@ export class LoginComponent  implements OnInit{
         }
       }
       if (found) {
-        console.log("aceptao");
+        console.log("encontrado");
         localStorage.setItem('estado','activo');
         Swal.fire({
           position: 'center',
@@ -67,7 +67,7 @@ export class LoginComponent  implements OnInit{
         this.router.navigate(['/home'])
 
       } else {
-        console.log("no aceptao");
+        console.log("no encontrado");
         localStorage.setItem('estado','inactivo')
         Swal.fire({
           position: 'center',
